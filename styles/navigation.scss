@@ -1,1 +1,58 @@
 // стили навигации
+.header {
+  padding: 8px;
+  padding-top: 16px;
+  display: flex;
+
+  align-items: center;
+}
+.navigation {
+  margin-left: 43px;
+
+  &__nav-icon {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    padding: 0;
+  }
+
+  &__today-btn {
+    background-color: transparent;
+    border: 1px solid #dadce0;
+    width: 85px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  &__displayed-month {
+    color: #3c4043;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-left: 20px;
+  }
+}
+.day-label {
+  &__day-name {
+    height: 32px;
+    line-height: 32px;
+    color: #70757a;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-top: 8px;
+  }
+  &__day-number {
+    width: 46px;
+    height: 46px;
+    color: #70757a;
+    cursor: pointer;
+    font-size: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 46px;
+    margin-top: -8px;
+  }
+}

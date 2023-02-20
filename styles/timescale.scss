@@ -1,1 +1,21 @@
 // стили боковой временной шкалы
+.red-line {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  &__point {
+    margin-left: -5px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #ff0000;
+  }
+  &__line {
+    height: 1px;
+    background-color: #ff0000;
+    width: 99%;
+  }
+}
